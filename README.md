@@ -33,10 +33,10 @@ Soplang provides several keywords for declaring variables, each tailored to spec
 | `door`      | Dynamic variable declaration | `var`/`let`            | `door magac = "Ali Key"`               |
 | `tiro`      | Integer type              | `int`                  | `tiro da = 21`                           |
 | `qoraal`    | String type               | `string`               | `qoraal magac = "Ali Omar"`             |
-| `labadaran` | Boolean type              | `bool`                 | `labadaran waaRun = true`                |
-| `shey`      | Object type               | `object`               | `shey person = { "name": "Ali Key" }`  |
-| `liis`      | List/array type           | `array`                | `liis numbers = [1, 2, 3]`               |
-| `waxba`     | Null value                | `null`                 | `door a = waxba`                         |
+| `labadaran` | Boolean type              | `bool`                 | `labadaran waaRun = run`                |
+| `shey`      | Object type               | `object`               | `shey personInfo = { "name": "Ali Key" }`  |
+| `liis`      | List/array type           | `array`                | `liis grades = [85, 90, 78]`               |
+| `waxba`     | Null value                | `null`                 | `door a  = waxba`                         |
 
 ---
 
@@ -96,13 +96,13 @@ A group of key-value pairs.
 
 ```soplang
 shey PersonInfo = {
-    "name": "Ahmed",
+    "name": "Ali Key",
     "age": 21,
     "isStudent": run
 }
 ```
 
-✅ Example: {"name": "Ahmed", "age": 21}
+✅ Example: {"name": "Ali Key", "age": 21}
 
 ---
 

@@ -43,7 +43,15 @@ shey PersonInfo = {
 }
 
 // ================================
-// 3. Display Variable Values Using qor()
+// 3.  Soplang also provides a few special types for specific use cases.
+// ================================
+
+// Null Type
+// The waxba keyword represents a null or empty value:
+door a = waxba
+
+// ================================
+// 4. Display Variable Values Using qor()
 // ================================
 
 // Display Primitive Types
@@ -56,8 +64,9 @@ qor("Is Student: " + isStudent) // Outputs: Is Student: true
 qor("Grades: " + grades)      // Outputs: Grades: [85, 90, 78]
 qor("Person: " + PersonInfo)  // Outputs: Person: {"name": "Ahmed", "age": 21, "isStudent": run}
 
+
 // ================================
-// 4. Combine and Display All Variables
+// 5. Combine and Display All Variables
 // ================================
 
 // Combine all data and print together
@@ -65,7 +74,7 @@ qor("My name is " + name + ", I am " + age + " years old, and I am a student: " 
 // Outputs: My name is Ali Omar Abdi, I am 21 years old, and I am a student: run
 
 // ================================
-// 5. Summary of Data Types in Soplang
+// 6. Summary of Data Types in Soplang
 // ================================
 
 // 1. **String (Xarfo)**: Represents text enclosed in double quotes.
