@@ -1,6 +1,6 @@
 # 🌍 Soplang Data Types Guide
 
-Welcome to the **Soplang Data Types Guide** — a simple and beginner-friendly introduction to the different data types available in **Soplang**, a Somali-first programming language.
+Welcome to the **Soplang Data Types Guide** — a simple and beginner-friendly introduction to the different data types and variable declaration keywords available in **Soplang**, a Somali-first programming language.
 
 This guide covers the most common types you'll use when writing Soplang code, complete with examples and comments in both English and Somali.
 
@@ -16,7 +16,7 @@ This guide covers the most common types you'll use when writing Soplang code, co
 
 In this guide, you'll learn how to:
 
-- Declare variables using `door`, `liis`, `shey`
+- Declare variables using `door`, `tiro`, `qoraal`, `labadaran`, `shey`, `liis`, and `waxba`
 - Work with strings, numbers, booleans, lists, and dictionaries
 - Display values using the built-in `qor()` function
 - Combine and display multiple variables
@@ -24,13 +24,29 @@ In this guide, you'll learn how to:
 
 ---
 
+## 🔑 Variable Declaration Keywords
+
+Soplang provides several keywords for declaring variables, each tailored to specific data types. Here's a summary:
+
+| **Keyword** | **Meaning**               | **English Equivalent** | **Example**                              |
+|-------------|---------------------------|-------------------------|------------------------------------------|
+| `door`      | Dynamic variable declaration | `var`/`let`            | `door magac = "Ali Key"`               |
+| `tiro`      | Integer type              | `int`                  | `tiro da = 21`                           |
+| `qoraal`    | String type               | `string`               | `qoraal magac = "Ali Omar"`             |
+| `labadaran` | Boolean type              | `bool`                 | `labadaran waaRun = true`                |
+| `shey`      | Object type               | `object`               | `shey person = { "name": "Ali Key" }`  |
+| `liis`      | List/array type           | `array`                | `liis numbers = [1, 2, 3]`               |
+| `waxba`     | Null value                | `null`                 | `door a = waxba`                         |
+
+---
+
 ## 🔠 1. Primitive Data Types
 
 ### 🧵 String (Xarfo)
-Represents a sequence of characters/text.
+Represents a sequence of characters or text.
 
 ```soplang
-door name = "Ali Omar Abdi"
+qoraal name = "Ali Omar Abdi"
 ```
 
 ✅ Example: "Ali Omar Abdi"
@@ -39,7 +55,7 @@ door name = "Ali Omar Abdi"
 Whole numbers without decimals.
 
 ```soplang
-door age = 21
+tiro age = 21
 ```
 
 ✅ Example: 21
@@ -57,7 +73,7 @@ door height = 5.9
 Represents truth values: run (true), been (false)
 
 ```soplang
-door isStudent = run
+labadaran isStudent = run
 ```
 
 ✅ Example: run or been
@@ -70,7 +86,7 @@ door isStudent = run
 An ordered group of values.
 
 ```soplang
-door grades = [85, 90, 78]
+liis grades = [85, 90, 78]
 ```
 
 ✅ Example: [85, 90, 78]
@@ -79,7 +95,7 @@ door grades = [85, 90, 78]
 A group of key-value pairs.
 
 ```soplang
-door PersonInfo = {
+shey PersonInfo = {
     "name": "Ahmed",
     "age": 21,
     "isStudent": run
@@ -87,16 +103,6 @@ door PersonInfo = {
 ```
 
 ✅ Example: {"name": "Ahmed", "age": 21}
-
-You can also use the shey keyword:
-
-```soplang
-shey PersonInfo = {
-    "name": "Ahmed",
-    "age": 21,
-    "isStudent": run
-}
-```
 
 ---
 
@@ -117,11 +123,11 @@ qor("Person: " + PersonInfo)
 ## 🧾 4. Full Example
 
 ```soplang
-door name = "Ali Omar Abdi"
-door age = 21
+qoraal name = "Ali Omar Abdi"
+tiro age = 21
 door height = 5.9
-door isStudent = run
-door grades = [85, 90, 78]
+labadaran isStudent = run
+liis grades = [85, 90, 78]
 
 shey PersonInfo = {
     "name": "Ali Omar Abdi",
@@ -138,12 +144,12 @@ qor("My name is " + name + ", I am " + age + " years old, and I am a student: " 
 
 | Type       | Keyword(s)   | Example                  |
 |------------|--------------|--------------------------|
-| String     | door         | "Ali Omar Abdi"         |
-| Integer    | door, labadaran | 21                   |
-| Float      | door, labadaran | 5.9                  |
-| Boolean    | door         | run, been               |
-| List       | liis, door   | [85, 90, 78]            |
-| Dictionary | shey, door   | {"name": "Ali", "age": 21} |
+| String     | qoraal       | "Ali Omar Abdi"         |
+| Integer    | tiro         | 21                      |
+| Float      | door         | 5.9                     |
+| Boolean    | labadaran    | run, been               |
+| List       | liis         | [85, 90, 78]            |
+| Dictionary | shey         | {"name": "Ali", "age": 21} |
 
 ---
 

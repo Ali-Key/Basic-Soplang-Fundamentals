@@ -3,43 +3,39 @@
 // ================================
 
 // Soplang provides a rich set of data types to represent different kinds of values. 
-// This guide demonstrates the most common data types in Soplang.
+// This guide demonstrates the most common data types in Soplang with examples.
 
 // ================================
 // 1. Primitive Types
 // ================================
 
-// String (Strings in Soplang are sequences of characters. You can define strings using either single or double quotes and manipulate them with various operations:)
-// Dynamic typing
-door name = "Ali Omar Abdi"
-// Static typing
-door name1 = "Ali Omar Abdi"  
+// String (Xarfo)
+// Strings in Soplang are sequences of characters. You can define strings using double quotes.
+door name = "Ali Omar Abdi"  // Dynamic typing
+qoraal name1 = "Ali Omar Abdi"  // Static typing
 
-// Number (Integer numbers are whole numbers without decimal points. You can define integers using door or labadaran:)
-door age = 21
+// Integer (Lambaro Dhan)
+// Integer numbers are whole numbers without decimal points.
+tiro age = 21
 
-
-// Float (Float numbers are decimal numbers. You can define floats using door or labadaran:)
+// Float (Lambaro Dhibco Leh)
+// Float numbers are decimal numbers.
 door height = 5.9
 
-// Boolean (Boolean values represent truth values with two possible states: run (true) or been (false). You can define boolean variables using door or labadaran:)
-door isStudent = run
+// Boolean (Run/Been)
+// Boolean values represent truth values with two possible states: run (true) or been (false).
+labadaran isStudent = run
 
 // ================================
 // 2. Collection Types
 // ================================
 
-// List (Lists are ordered collections of items that can be of any type. You can define a list using the liis keyword or use door with square brackets:)
-door grades = [85, 90, 78]
+// List (Liis)
+// Lists are ordered collections of items that can be of any type.
+liis grades = [85, 90, 78]
 
-// Dictionary (Dictionaries are collections of key-value pairs where each key must be unique. You can define a dictionary using door with curly braces or using the shey keyword:)
-// Creating dictionaries
-door PersonInfo = {
-    "name": "Ahmed",
-    "age": 21,
-    "isStudent": run
-}
-//   or 
+// Dictionary (Sheyga)
+// Dictionaries are collections of key-value pairs where each key must be unique.
 shey PersonInfo = {
     "name": "Ahmed",
     "age": 21,
@@ -51,16 +47,14 @@ shey PersonInfo = {
 // ================================
 
 // Display Primitive Types
-qor("Name: " + name)  // Outputs: Name: Ali Omar Abdi
-qor("Age: " + age)  // Outputs: Age: 21
-qor("Height: " + height)  // Outputs: Height: 5.9
-qor("Is Student: " + isStudent)  // Outputs: Is Student: true
+qor("Name: " + name)          // Outputs: Name: Ali Omar Abdi
+qor("Age: " + age)            // Outputs: Age: 21
+qor("Height: " + height)      // Outputs: Height: 5.9
+qor("Is Student: " + isStudent) // Outputs: Is Student: true
 
 // Display Collection Types
-qor("Grades: " + grades)  // Outputs: Grades: [85, 90, 78]
-qor("Person: " + PersonInfo)  // Outputs: Person: {"name": "Ali Omar Abdi", "age": 21, "isStudent": run}
-
-
+qor("Grades: " + grades)      // Outputs: Grades: [85, 90, 78]
+qor("Person: " + PersonInfo)  // Outputs: Person: {"name": "Ahmed", "age": 21, "isStudent": run}
 
 // ================================
 // 4. Combine and Display All Variables
@@ -70,28 +64,24 @@ qor("Person: " + PersonInfo)  // Outputs: Person: {"name": "Ali Omar Abdi", "age
 qor("My name is " + name + ", I am " + age + " years old, and I am a student: " + isStudent)
 // Outputs: My name is Ali Omar Abdi, I am 21 years old, and I am a student: run
 
-
-
 // ================================
 // 5. Summary of Data Types in Soplang
 // ================================
 
-// 1. **String**: Represents text enclosed in double quotes.
+// 1. **String (Xarfo)**: Represents text enclosed in double quotes.
 //    Example: "Ali Omar Abdi"
 
-// 2. **Integer**: Represents whole numbers without decimal points.
+// 2. **Integer (Lambaro Dhan)**: Represents whole numbers without decimal points.
 //    Example: 21
 
-// 3. **Float**: Represents decimal numbers.
+// 3. **Float (Lambaro Dhibco Leh)**: Represents decimal numbers.
 //    Example: 5.9
 
-// 4. **Boolean**: Represents truth values, either true (run) or false (been).
+// 4. **Boolean (Run/Been)**: Represents truth values, either true (run) or false (been).
 //    Example: run or been
 
-// 5. **List**: Represents an ordered collection of values.
-//    You can define a list using the `liis` keyword or use `door` with square brackets.
+// 5. **List (Liis)**: Represents an ordered collection of values.
 //    Example: [85, 90, 78]
 
-// 6. **Dictionary**: Represents a collection of key-value pairs where keys are unique.
-//    You can define a dictionary using `door` with curly braces or using the `shey` keyword.
+// 6. **Dictionary (Sheyga)**: Represents a collection of key-value pairs where keys are unique.
 //    Example: {"name": "Ali Omar Abdi", "age": 21}
