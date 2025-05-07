@@ -12,9 +12,8 @@
 // String (Xarfo)
 // Strings in Soplang are sequences of characters. You can define strings using double quotes.
 door name = "Ali Omar Abdi"  // Dynamic typing
-qoraal name1 = "Ali Omar Abdi"  // Static typing
 
-// Integer (Lambaro Dhan)
+// Integer (tiro)
 // Integer numbers are whole numbers without decimal points.
 tiro age = 21
 
@@ -22,7 +21,7 @@ tiro age = 21
 // Float numbers are decimal numbers.
 door height = 5.9
 
-// Boolean (Run/Been)
+// Boolean (labadaran - Run/Been)
 // Boolean values represent truth values with two possible states: run (true) or been (false).
 labadaran isStudent = run
 
@@ -30,11 +29,11 @@ labadaran isStudent = run
 // 2. Collection Types
 // ================================
 
-// List (Liis)
+// List /  Array (Liis)
 // Lists are ordered collections of items that can be of any type.
 liis grades = [85, 90, 78]
 
-// Dictionary (Sheyga)
+// Dictionary / Object Type (Shey)
 // Dictionaries are collections of key-value pairs where each key must be unique.
 shey PersonInfo = {
     "name": "Ahmed",
@@ -43,12 +42,14 @@ shey PersonInfo = {
 }
 
 // ================================
-// 3.  Soplang also provides a few special types for specific use cases.
+// 3. Soplang also provides a few special types for specific use cases.
 // ================================
 
 // Null Type
 // The waxba keyword represents a null or empty value:
-door a = waxba
+// door   qof = waxba
+// qor(qof) // Outputs: waxba
+
 
 // ================================
 // 4. Display Variable Values Using qor()
@@ -62,8 +63,7 @@ qor("Is Student: " + isStudent) // Outputs: Is Student: true
 
 // Display Collection Types
 qor("Grades: " + grades)      // Outputs: Grades: [85, 90, 78]
-qor("Person: " + PersonInfo)  // Outputs: Person: {"name": "Ahmed", "age": 21, "isStudent": run}
-
+qor("Person: " + PersonInfo)  // Outputs: Person: {"name": "Ali Omar Abdi", "age": 21, "isStudent": run}
 
 // ================================
 // 5. Combine and Display All Variables
@@ -94,3 +94,4 @@ qor("My name is " + name + ", I am " + age + " years old, and I am a student: " 
 
 // 6. **Dictionary (Sheyga)**: Represents a collection of key-value pairs where keys are unique.
 //    Example: {"name": "Ali Omar Abdi", "age": 21}
+

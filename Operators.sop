@@ -1,0 +1,88 @@
+// ================================
+// Basic Operators in Soplang
+// ================================
+
+// Soplang provides a variety of operators for performing operations on values.
+
+// ================================
+// 1. Arithmetic Operators
+// ================================
+// Used for mathematical calculations.
+
+tiro a = 10
+tiro b = 5
+
+qor("Addition: " + (a + b))       // Outputs: 15
+qor("Subtraction: " + (a - b))    // Outputs: 5
+qor("Multiplication: " + (a * b)) // Outputs: 50
+qor("Division: " + (a / b))       // Outputs: 2
+qor("Modulus: " + (a % b))        // Outputs: 0
+
+// ================================
+// 2. Comparison Operators
+// ================================
+// Used to compare two values and return a boolean result.
+
+labadaran isEqual = (a == b)
+labadaran isNotEqual = (a != b)
+labadaran isGreater = (a > b)
+labadaran isLess = (a < b)
+labadaran isGreaterOrEqual = (a >= b)
+labadaran isLessOrEqual = (a <= b)
+
+qor("Is Equal: " + isEqual)               // Outputs: false
+qor("Is Not Equal: " + isNotEqual)        // Outputs: true
+qor("Is Greater: " + isGreater)           // Outputs: true
+qor("Is Less: " + isLess)                 // Outputs: false
+qor("Is Greater or Equal: " + isGreaterOrEqual) // Outputs: true
+qor("Is Less or Equal: " + isLessOrEqual)       // Outputs: false
+
+// ================================
+// 3. Logical Operators
+// ================================
+// Used to combine multiple boolean expressions.
+
+labadaran x = run
+labadaran y = been
+
+qor("Logical AND: " + (x && y)) // Outputs: false
+qor("Logical OR: " + (x || y))  // Outputs: true
+qor("Logical NOT: " + (!x))     // Outputs: false
+
+// ================================
+// 4. Assignment Operators
+// ================================
+// Used to assign values to variables.
+
+
+tiro c = 10  // Basic assignment
+c += 5  // Equivalent to c = c + 5
+qor("c after += 5: " + c) // Outputs: 15
+
+c -= 3  // Equivalent to c = c - 3
+qor("c after -= 3: " + c) // Outputs: 12
+
+c *= 2  // Equivalent to c = c * 2
+qor("c after *= 2: " + c) // Outputs: 24
+
+c /= 4  // Equivalent to c = c / 4
+qor("c after /= 4: " + c) // Outputs: 6
+
+c %= 2  // Equivalent to c = c % 2
+qor("c after %= 2: " + c) // Outputs: 0
+
+// ================================
+// End of Operators Demonstration
+// ================================
+
+// Explanation:
+// 1. Arithmetic Operators:
+//    Demonstrates addition, subtraction, multiplication, division, and modulus operations.
+// 2. Comparison Operators:
+//    Shows how to compare two values and return boolean results (e.g., true or false).
+// 3. Logical Operators:
+//    Combines boolean expressions using AND (&&), OR (||), and NOT (!) operators.
+// 4. Assignment Operators:
+//    Demonstrates shorthand assignment operations like +=, -=, *=, /=, and %=.
+
+// This script provides a comprehensive overview of basic operators in Soplang with examples and outputs.
